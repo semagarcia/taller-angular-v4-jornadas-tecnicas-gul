@@ -1,5 +1,5 @@
 # Taller de Angular2 - XXX Jornadas Técnicas del GUL
-Código del taller sobre Angular2 - XXX Jornadas Técnicas del GUL (https://cursos.gul.es/)[Grupo de Usuarios de Linux].
+Código del taller sobre Angular2 - XXX Jornadas Técnicas del GUL [(Grupo de Usuarios de Linux)](https://cursos.gul.es/).
 
 ## Ponentes
 - Isabel Matas Rabadán (Isabel)
