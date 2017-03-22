@@ -16,13 +16,17 @@
     "javascript",
     "typescript"
   ],
-  "author": { 
-    "name": "Sema García", 
+  "author": {
+    "name": "Sema García",
     "url": "http://github.com/semagarcia/"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/semagarcia/taller-angular2-jornadas-tecnicas-gul/issues"
   },
-  "homepage": "https://github.com/semagarcia/taller-angular2-jornadas-tecnicas-gul#readme"
+  "homepage": "https://github.com/semagarcia/taller-angular2-jornadas-tecnicas-gul#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
 }
