@@ -1,0 +1,28 @@
+{
+  "name": "taller-angular2-jornadas-tecnicas-gul",
+  "version": "1.0.0",
+  "description": "Código del taller sobre Angular2 - XXX Jornadas Técnicas del GUL (Grupo de Usuarios de Linux).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semagarcia/taller-angular2-jornadas-tecnicas-gul.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "javascript",
+    "typescript"
+  ],
+  "author": { 
+    "name": "Sema García", 
+    "url": "http://github.com/semagarcia/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/semagarcia/taller-angular2-jornadas-tecnicas-gul/issues"
+  },
+  "homepage": "https://github.com/semagarcia/taller-angular2-jornadas-tecnicas-gul#readme"
+}
