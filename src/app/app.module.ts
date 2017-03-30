@@ -11,13 +11,15 @@ import { SeriesComponent } from './series/series.component';
 import { CharacterComponent } from './character/character.component';
 
 import { CharacterService, SeriesService } from './core';
+import { FilterByYearPipe } from './core/filter-by-year.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SeriesComponent,
-    CharacterComponent
+    CharacterComponent,
+    FilterByYearPipe
   ],
   imports: [
     BrowserModule,

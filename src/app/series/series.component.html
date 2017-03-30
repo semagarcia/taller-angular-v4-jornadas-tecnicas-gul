@@ -1,4 +1,4 @@
 <h1>Mis series</h1>
 <ul>
-  <li *ngFor="let s of series">{{ s.title }} - ({{ s.year }})</li>
+  <li *ngFor="let s of series">{{ s.title }} - ({{ s.year | filterByYear }})</li>
 </ul>
