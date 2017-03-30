@@ -4,16 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { SeriesComponentComponent } from './series-component/series-component.component';
-import { CharacterComponentComponent } from './character-component/character-component.component';
-import { HomeComponentComponent } from './home-component/home-component.component';
+import { HomeComponent } from './home/home.component';
+import { SeriesComponent } from './series/series.component';
+import { CharacterComponent } from './character/character.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SeriesComponentComponent,
-    CharacterComponentComponent,
-    HomeComponentComponent
+    HomeComponent,
+    SeriesComponent,
+    CharacterComponent
   ],
   imports: [
     BrowserModule,
