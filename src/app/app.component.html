@@ -12,9 +12,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Option 1</a></li>
-                <li><a href="#about">Option 2</a></li>
-                <li><a href="#contact">Option 3</a></li>
+                <li><a routerLink="home">Home</a></li>
+                <li><a routerLink="series">Series</a></li>
+                <li><a routerLink="characters">Actores</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
@@ -22,9 +22,5 @@
 </nav>
 
 <div class="container">
-    <div class="row">
-        <h1>
-            {{title}}
-        </h1>
-    </div>
+    <router-outlet></router-outlet>
 </div>
