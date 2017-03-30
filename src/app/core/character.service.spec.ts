@@ -1,15 +1,15 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { CharacterServiceService } from './character-service.service';
+import { CharacterService } from './character.service';
 
-describe('CharacterServiceService', () => {
+describe('CharacterService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [CharacterServiceService]
+      providers: [CharacterService]
     });
   });
 
-  it('should ...', inject([CharacterServiceService], (service: CharacterServiceService) => {
+  it('should ...', inject([CharacterService], (service: CharacterService) => {
     expect(service).toBeTruthy();
   }));
 });

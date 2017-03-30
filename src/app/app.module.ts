@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { SeriesComponent } from './series/series.component';
 import { CharacterComponent } from './character/character.component';
 
+import { CharacterService, SeriesService } from './core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,10 @@ import { CharacterComponent } from './character/character.component';
     HttpModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [
+    CharacterService, 
+    SeriesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
