@@ -1,0 +1,440 @@
+{
+    "series": [
+		{
+			"id": "BB",
+			"title": "Breaking Bad",
+			"year": "2008",
+			"seasons": "5",
+			"creators": "Vince Gilligan",
+			"stars": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
+			"description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future."
+		},
+		{
+			"id": "GoT",
+			"title": "Game of Thrones",
+			"year": "2011",
+			"seasons": "8",
+			"creators": ["David Benioff", "D.B. Weiss"],
+			"stars": ["Emilia Clarke", "Peter Dinklage", "Kit Harington"],
+			"description": "Nine noble families fight for control over the mythical lands of Westeros; A forgotten race returns after being dormant for thousands of years."
+		},
+		{
+			"id": "TS",
+			"title": "The Sopranos",
+			"year": "1999",
+			"seasons": "6",
+			"creators": " David Chase",
+			"stars": ["James Gandolfini", "Lorraine Bracco", "Edie Falco"],
+			"description": "New Jersey mob boss, Tony Soprano, deals with personal and professional issues in his home and business life, which affects his mental state and ends up seeking professional psychiatric counseling."
+		},
+		{
+			"id": "TW",
+			"title": "The Wire",
+			"year": "2002",
+			"seasons": "5",
+			"creators": "David Simon",
+			"stars": ["Dominic West", "Lance Reddick", "Sonja Sohn"],
+			"description": "Baltimore drug scene, seen through the eyes of drug dealers and law enforcement."
+		},
+		{
+			"id": "BoB",
+			"title": "Band of Brothers",
+			"year": "2001",
+			"seasons": "1",
+			"cretators":"Tom Hanks",
+			"stars": ["Scott Grimes", "Damian Lewis", "Ron Livingston"],
+			"description": "The story of Easy Company of the US Army 101st Airborne division and their mission in WWII Europe from Operation Overlord through V-J Day."
+		},
+		{
+			"id": "OITNB",
+			"title": "Orange Is the New Black ",
+			"year": "2013",
+			"seasons": "7",
+			"cretators":"Jenji Kohan",
+			"stars": ["Taylor Schilling", "Danielle Brooks", "Taryn Manning"],
+			"description": "The story of Piper Chapman, a woman in her thirties who is sentenced to fifteen months in prison after being convicted of a decade-old crime of transporting money to her drug-dealing girlfriend."
+		},
+
+		{
+			"id": "Vk",
+			"title": "Vikings",
+			"year": "2013",
+			"seasons": "5",
+			"cretators":"Michael Hirst",
+			"stars": ["Gustaf Skarsgård", "Katheryn Winnick", "Alexander Ludwig"],
+			"description": "The world of the Vikings is brought to life through the journey of Ragnar Lothbrok, the first Viking to emerge from Norse legend and onto the pages of history - a man on the edge of myth."
+		}
+	],
+    "characters": [
+		{
+			"character": "Walter White",
+			"actor": "Bryan Cranston",
+			"serie": "BB"
+		},
+		{
+			"character": "Jesse Pinkman",
+			"actor": "Bryan Cranston",
+			"serie": "BB"
+		},
+		{
+			"character": "Walter White",
+			"actor": "Aaron Paul",
+			"serie": "BB"
+		},
+		{
+			"character": "Skyler White",
+			"actor": "Anna Gunn",
+			"serie": "BB"
+		},
+		{
+			"character": "Walter White Jr",
+			"actor": "RJ Mitte",
+			"serie": "BB"
+		},
+		{
+			"character": "Hank Schrader",
+			"actor": "Dean Norris",
+			"serie": "BB"
+		},
+		{
+			"character": "Marie Schrader",
+			"actor": "Betsy Brandt",
+			"serie": "BB"
+		},
+		{
+			"character": "Eddard 'Ned' Stark",
+			"actor": "Sean Bean",
+			"serie": "GoT"
+		},
+		{
+			"character": "Catelyn Tully ",
+			"actor": "Michelle Fairley",
+			"serie": "GoT"
+		},
+		{
+			"character": "Robb Stark",
+			"actor": "Richard Madden",
+			"serie": "GoT"
+		},
+		{
+			"character": "Sansa Stark",
+			"actor": "Sophie Turner",
+			"serie": "GoT"
+		},
+		{
+			"character": "Arya Stark",
+			"actor": "Maisie Williams",
+			"serie": "GoT"
+		},
+		{
+			"character": "Bran Stark",
+			"actor": "Isaac Hempstead-Wright",
+			"serie": "GoT"
+		},
+		{
+			"character": "Rickon Stark",
+			"actor": "Isaac Hempstead-Wright",
+			"serie": "GoT"
+		},
+		{
+			"character": "Jon Snow",
+			"actor": "Kit Harington",
+			"serie": "GoT"
+		},
+		{
+			"character": "Theon Greyjoy",
+			"actor": "Alfie Allen",
+			"serie": "GoT"
+		},
+		{
+			"character": "Robert Baratheon",
+			"actor": "Mark Addy",
+			"serie": "GoT"
+		},
+		{
+			"character": "Cersei Lannister",
+			"actor": "Lena Headey",
+			"serie": "GoT"
+		},
+		{
+			"character": "Jaime Lannister",
+			"actor": "Nikolaj Coster-Waldau",
+			"serie": "GoT"
+		},
+		{
+			"character": "Tyrion Lannister",
+			"actor": "Peter Dinklage",
+			"serie": "GoT"
+		},
+		{
+			"character": "Tywin Lannister",
+			"actor": "Charles Dance",
+			"serie": "GoT"
+		},
+		{
+			"character": "Joffrey Baratheon",
+			"actor": "Jack Gleeson",
+			"serie": "GoT"
+		},
+		{
+			"character": "Tommen Baratheon",
+			"actor": "Dean-Charles Chapman",
+			"serie": "GoT"
+		},
+		{
+			"character": "Myrcella Baratheon",
+			"actor": "Aimee Richardson",
+			"serie": "GoT"
+		},
+		{
+			"character": "Margaery Tyrell",
+			"actor": "Natalie Dormer",
+			"serie": "GoT"
+		},
+		{
+			"character": "Daenerys Targaryen",
+			"actor": "Emilia Clarke",
+			"serie": "GoT"
+		},
+		{
+			"character": "Khal Drogo",
+			"actor": "Jason Momoa",
+			"serie": "GoT"
+		},
+		{
+			"character": "Jorah Mormont",
+			"actor": "Iain Glen",
+			"serie": "GoT"
+		},
+		{
+			"character": "Petyr \"Littlefinger\" Baelish",
+			"actor": "Aidan Gillen",
+			"serie": "GoT"
+		},
+		{
+			"character": "Varys",
+			"actor": "Conleth Hill",
+			"serie": "GoT"
+		},
+		{
+			"character": "Tony Soprano",
+			"actor": "James Gandolfini",
+			"serie": "TS"
+		},
+		{
+			"character": "Jennifer Melfi",
+			"actor": "Lorraine Bracco",
+			"serie": "TS"
+		},
+		{
+			"character": "Carmela Soprano",
+			"actor": "Edie Falco",
+			"serie": "TS"
+		},
+		{
+			"character": "Christopher Moltisanti",
+			"actor": "Michael Imperioli",
+			"serie": "TS"
+		},
+		{
+			"character": "Meadow Soprano",
+			"actor": "Jamie-Lynn Sigler",
+			"serie": "TS"
+		},
+		{
+			"character": "Anthony Soprano Jr.",
+			"actor": "Robert Iler",
+			"serie": "TS"
+		},
+		{
+			"character": "Corrado \"Junior\" Soprano",
+			"actor": "Dominic Chianese",
+			"serie": "TS"
+		},
+		{
+			"character": "Silvio Dante",
+			"actor": "Steven Van Zandt",
+			"serie": "TS"
+		},
+		{
+			"character": "Paulie \"Walnuts\" Gualtieri",
+			"actor": "Tony Sirico",
+			"serie": "TS"
+		},
+		{
+			"character": "Jimmy McNulty",
+			"actor": "Dominic West",
+			"serie": "TW"
+		},
+		{
+			"character": "Cedric Daniels",
+			"actor": "Lance Reddick",
+			"serie": "TWTW"
+		},
+		{
+			"character": "Kima Greggs",
+			"actor": "Sonja Sohn",
+			"serie": "TW"
+		},
+		{
+			"character": "Bubbles",
+			"actor": "Andre Royo",
+			"serie": "TW"
+		},
+		{
+			"character": "Thomas \"Herc\" Hauk",
+			"actor": "Domenick Lombardozzi",
+			"serie": "TW"
+		},
+		{
+			"character": "Ellis Carver",
+			"actor": "Seth Gilliam",
+			"serie": "TW"
+		},
+		{
+			"character": "Avon Barksdale",
+			"actor": "Wood Harris",
+			"serie": "TW"
+		},
+		{
+			"character": "Stringer Bell",
+			"actor": "Idris Elba",
+			"serie": "TW"
+		},
+		{
+			"character": "D'Angelo Barksdale",
+			"actor": "Larry Gilliard Jr.",
+			"serie": "TW"
+		},
+		{
+			"character": "Wee-Bey Brice",
+			"actor": "Hassan Johnson",
+			"serie": "TW"
+		},
+		{
+			"character": "Poot",
+			"actor": "Tray Chaney",
+			"serie": "TW"
+		},
+		{
+			"character": "Bodie",
+			"actor": "J. D. Williams",
+			"serie": "TW"
+		},
+		{
+			"character": "Wallace",
+			"actor": "Michael B. Jordan",
+			"serie": "TW"
+		},
+		{
+			"character": "Richard Winters",
+			"actor": "Damian Lewis",
+			"serie": "BoB"
+		},
+		{
+			"character": "Floyd \"Tab\" Talbert",
+			"actor": "Matthew Leitch",
+			"serie": "BoB"
+		},
+		{
+			"character": "Lewis Nixon",
+			"actor": "Ron Livingston",
+			"serie": "BoB"
+		},
+		{
+			"character": "Carwood Lipton",
+			"actor": "Donnie Wahlberg",
+			"serie": "BoB"
+		},
+		{
+			"character": "Robert \"Popeye\" Wynn",
+			"actor": "Nicholas Aaron",
+			"serie": "BoB"
+		},
+		{
+			"character": "Wayne A. \"Skinny\" Sisk",
+			"actor": "Philip Barantini",
+			"serie": "BoB"
+		},
+		{
+			"character": "Piper Chapman",
+			"actor": "Taylor Schilling",
+			"serie": "OITNB"
+		},
+		{
+			"character": "Alex Vause",
+			"actor": "Laura Prepon",
+			"serie": "OITNB"
+		},
+		{
+			"character": "Sam Healy",
+			"actor": "Michael J. Harney",
+			"serie": "OITNB"
+		},
+		{
+			"character": "Galina \"Red\" Reznikova",
+			"actor": "Kate Mulgrew",
+			"serie": "OITNB"
+		},
+		{
+			"character": "Suzanne Warren",
+			"actor": "Uzo Aduba",
+			"serie": "OITNB"
+		},
+		{
+			"character": "Tasha \"Taystee\" Jefferson",
+			"actor": "Danielle Brooks",
+			"serie": "OITNB"
+		},
+		{
+			"character": "Nicole \"Nicky\" Nichols",
+			"actor": "Natasha Lyonne",
+			"serie": "OITNB"
+		},
+		{
+			"character": "Joe Caputo",
+			"actor": "Nick Sandow",
+			"serie": "OITNB"
+		},
+		{
+			"character": "Lorna Morello",
+			"actor": "Yael Stone",
+			"serie": "OITNB"
+		},
+		{
+			"character": "Poussey Washington",
+			"actor": "Samira Wiley",
+			"serie": "OITNB"
+		},
+		{
+			"character": "Ragnar Lodbrok",
+			"actor": "Travis Fimmel",
+			"serie": "Vk"
+		},
+		{
+			"character": "Lagertha",
+			"actor": "Katheryn Winnick",
+			"serie": "Vk"
+		},
+		{
+			"character": "Rollo",
+			"actor": "Clive Standen",
+			"serie": "Vk"
+		},
+		{
+			"character": "Floki",
+			"actor": "Gustaf Skarsg�rd",
+			"serie": "Vk"
+		},
+		{
+			"character": "Bj�rn Ragnarsson",
+			"actor": "Alexander Ludwig",
+			"serie": "Vk"
+		},
+		{
+			"character": "Aslaug",
+			"actor": "Alyssa Sutherland",
+			"serie": "Vk"
+		}
+	]
+}
