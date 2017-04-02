@@ -1,4 +1,21 @@
-<h1>Mis series</h1>
-<ul>
-  <li *ngFor="let s of series">{{ s.title }} - ({{ s.year | filterByYear }})</li>
-</ul>
+<h1>My series</h1>
+<table class="table table-striped">
+  <thead>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Serie</th>
+    <th>Seasons</th>
+    <th>Creators</th>
+    <th>Stars</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let s of series">
+      <td>{{ s.id }}</td>
+      <td>{{ s.title }}</td>
+      <td>{{ s.year }}</td>
+      <td>{{ s.seasons }}</td>
+      <td>{{ s.creators }}</td>
+      <td>{{ s.stars.length }}</td>
+    </tr>
+  </tbody>
+</table>
