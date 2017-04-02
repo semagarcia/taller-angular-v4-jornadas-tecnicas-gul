@@ -12,6 +12,7 @@ import { CharacterComponent } from './character/character.component';
 
 import { CharacterService, SeriesService } from './core';
 import { FilterByYearPipe } from './core/filter-by-year.pipe';
+import { FilmFilterPipe } from './core/film-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FilterByYearPipe } from './core/filter-by-year.pipe';
     HomeComponent,
     SeriesComponent,
     CharacterComponent,
-    FilterByYearPipe
+    FilterByYearPipe,
+    FilmFilterPipe
   ],
   imports: [
     BrowserModule,

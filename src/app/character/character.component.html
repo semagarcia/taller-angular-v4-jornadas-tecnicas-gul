@@ -1,3 +1,15 @@
-<p>
-  character-component works!
-</p>
+<h1>Mis actores</h1>
+<table class="table table-striped">
+  <thead>
+    <th>Character</th>
+    <th>Actor</th>
+    <th>Serie</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let c of characters">
+      <td>{{c.character}}</td>
+      <td>{{c.actor}}</td>
+      <td>{{c.serie | filmFilter}}</td>
+    </tr>
+  </tbody>
+</table>
