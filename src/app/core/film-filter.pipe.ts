@@ -21,11 +21,11 @@ export class FilmFilterPipe implements PipeTransform {
       case 'TW':
         return 'Teen Wolf';
       case 'BoB':
-        return 'BoB';
+        return 'Band of Brothers';
       case 'OITNB':
         return 'Orange Is The New Black';
       case 'VK':
-        return 'VK';
+        return 'Vikings';
     }
 
     return 'Serie not recognized';
