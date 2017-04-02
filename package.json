@@ -19,12 +19,12 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "serve": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start-mock": "concurrently 'npm run ng-proxied' 'npm run mocked-server'",
+    "start": "concurrently 'npm run ng-proxied' 'npm run mocked-server'",
     "ng-proxied": "ng serve --proxy-config proxy.config.json",
     "mocked-server": "json-server -w ./api/endpoints.json --port 5000"
   },
