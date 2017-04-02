@@ -5,12 +5,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FilmFilterPipe implements PipeTransform {
   transform(value: string): string {
-    if(value === 'BB') {
-      return 'Breaking Bad';
-    } else if(value === 'GoT') {
-      return 'Games Of Thrones';
-    } else
-
     switch(value) {
       case 'BB':
         return 'Breaking Bad';
