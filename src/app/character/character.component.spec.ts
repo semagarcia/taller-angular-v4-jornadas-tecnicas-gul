@@ -1,25 +1,34 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpModule } from '@angular/http';
 
-import { CharacterComponentComponent } from './character-component.component';
+import { CharacterComponent } from './character.component';
+import { CharacterService, SearchFilterPipe, FilmFilterPipe } from './../core';
 
-describe('CharacterComponentComponent', () => {
-  let component: CharacterComponentComponent;
-  let fixture: ComponentFixture<CharacterComponentComponent>;
+describe('CharacterComponent', () => {
+  let component: CharacterComponent;
+  let fixture: ComponentFixture<CharacterComponent>;
+  let characterSrvSpyed;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CharacterComponentComponent ]
+      imports: [ HttpModule ],
+      declarations: [ 
+        CharacterComponent, 
+        SearchFilterPipe,
+        FilmFilterPipe
+      ],
+      providers: [ CharacterService ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CharacterComponentComponent);
+    fixture = TestBed.createComponent(CharacterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create the CharacterComponent', () => {
     expect(component).toBeTruthy();
   });
 });

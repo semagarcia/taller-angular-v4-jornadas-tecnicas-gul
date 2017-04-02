@@ -1,25 +1,29 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpModule } from '@angular/http';
 
-import { SeriesComponentComponent } from './series-component.component';
+import { SeriesComponent } from './series.component';
+import { SeriesService } from './../core';
 
-describe('SeriesComponentComponent', () => {
-  let component: SeriesComponentComponent;
-  let fixture: ComponentFixture<SeriesComponentComponent>;
+describe('SeriesComponent', () => {
+  let component: SeriesComponent;
+  let fixture: ComponentFixture<SeriesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SeriesComponentComponent ]
+      imports: [ HttpModule ],
+      declarations: [ SeriesComponent ],
+      providers: [ SeriesService ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SeriesComponentComponent);
+    fixture = TestBed.createComponent(SeriesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create the SeriesComponent', () => {
     expect(component).toBeTruthy();
   });
 });

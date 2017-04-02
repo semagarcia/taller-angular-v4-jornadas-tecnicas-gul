@@ -1,8 +1,16 @@
 import { SearchFilterPipe } from './search-filter.pipe';
 
 describe('SearchFilterPipe', () => {
+    let pipe: SearchFilterPipe;
+    beforeEach(() => {
+      pipe = new SearchFilterPipe();
+    });
+
   it('create an instance', () => {
-    const pipe = new SearchFilterPipe();
-    expect(pipe).toBeTruthy();
+      expect(pipe).toBeTruthy();
+  });
+
+  it('should no filter (no input & no filter criteria)', () => {
+      expect(pipe.transform([], '')).toEqual([]);
   });
 });
