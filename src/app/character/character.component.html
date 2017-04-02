@@ -1,4 +1,10 @@
-<h1>Mis characters</h1>
+<h1>My characters</h1>
+<div class="row" style="padding: 12px">
+  <div class="col-md-offset-6 col-md-6">
+    Character filter: 
+    <input type="text" #input style="width: 80%" value="" />
+  </div>
+</div>
 <table class="table table-striped">
   <thead>
     <th>Character</th>
@@ -6,7 +12,7 @@
     <th>Serie</th>
   </thead>
   <tbody>
-    <tr *ngFor="let c of characters">
+    <tr *ngFor="let c of characters | searchFilter: input.value">
       <td>{{c.character}}</td>
       <td>{{c.actor}}</td>
       <td>{{c.serie | filmFilter}}</td>

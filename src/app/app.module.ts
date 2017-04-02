@@ -11,7 +11,7 @@ import { SeriesComponent } from './series/series.component';
 import { CharacterComponent } from './character/character.component';
 
 import { CharacterService, SeriesService } from './core';
-import { FilterByYearPipe } from './core/filter-by-year.pipe';
+import { SearchFilterPipe } from './core/search-filter.pipe';
 import { FilmFilterPipe } from './core/film-filter.pipe';
 
 @NgModule({
@@ -20,7 +20,7 @@ import { FilmFilterPipe } from './core/film-filter.pipe';
     HomeComponent,
     SeriesComponent,
     CharacterComponent,
-    FilterByYearPipe,
+    SearchFilterPipe,
     FilmFilterPipe
   ],
   imports: [

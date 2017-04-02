@@ -1,3 +1,4 @@
 export * from './character.service';
 export * from './series.service';
-export * from './filter-by-year.pipe';
+export * from './film-filter.pipe';
+export * from './search-filter.pipe';
